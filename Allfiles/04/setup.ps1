@@ -83,7 +83,6 @@ $Region = $locations.Get($rand).Location
         $Region = $locations.Get($rand).Location
     }
 }
-Write-Host "Creating $resourceGroupName resource group in $Region ..."
 
 # Create Synapse workspace
 $synapseWorkspace = "synapsews$suffix"
